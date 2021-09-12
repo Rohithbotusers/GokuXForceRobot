@@ -87,30 +87,32 @@ Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communi
 buttons = [
     [
         InlineKeyboardButton(
-            text="[ADD VALT AOI TO YOUR GROUP]",url="t.me/VALTAOITHEBOT?startgroup=true"),
+            text="➕️ ADD SHINCHAN TO YOUR GROUP ➕️",url="http://t.me/Shinchansrobot?startgroup=true"
+        ),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
-     
+          text="🔐 Commands", callback_data="help_back"
+        ),
     ],
     [
         InlineKeyboardButton(
-            text="[UPDATE CHANNEL ]", url="https://t.me/pigasusUpdates"),
+          text="📮 Updates", url="https://t.me/PigasusUpdates"
+        ),
+      
+        InlineKeyboardButton(
+          text="LOGS", url="https://t.me/PigasusLogs"
+        ),
+    ],
+         
+    [
+       InlineKeyboardButton(
+           text="🐱 Support", url="https://t.me/PigasusSupport"
+         ),
     ],
     [
-        InlineKeyboardButton(
-            text="[ SUPPORT CHAT ]", url="https://t.me/pigasusSupport"),
-          
-
-
-InlineKeyboardButton(
-            text="[ CHECK MY FRIEND ]", url="http://t.me/ShuKurenaithebot"),
-
-    ],
-    [
-        InlineKeyboardButton(
-                    text="[ ✘BOT Cʀᴇᴀᴛᴇʀ✘ ]", url="https://t.me/Rohith_no_1"
+      InlineKeyboardButton(
+           text="MY OWNER", url="https://t.me/Rohith_no_1"
         ),
     ],
 ]
@@ -675,7 +677,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/85083e47eded1eb77a9bb.jpg)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/62be8da2c0a8e9b57b148.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
