@@ -85,26 +85,35 @@ Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communi
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Shinchan to your group ➕", url="t.me/Shinchansrobot?startgroup=true"),    
-        InlineKeyboardButton(
-              text="⚙️ Help", callback_data="help_back"),   
-   ],
-    [      
-       InlineKeyboardButton(
-            text="Logs", url="https://t.me/PigasusLogs"),        
-          InlineKeyboardButton(
-            text="📋 Updates", url="https://t.me/PigasusUpdates"),
-    
-   ],
-    [      
-          InlineKeyboardButton(
-            text="🗣️ Support", url="https://t.me/PigasusSupport"),
-          InlineKeyboardButton(
-            text="📁 Source", url="https://github.com/STBxD/GokuXForceRobot",
-    
-         ),
+            text="[ADD VALT AOI TO YOUR GROUP]",url="t.me/VALTAOITHEBOT?startgroup=true"),
     ],
-] 
+    [
+        InlineKeyboardButton(
+              text="🔐 Command & Help", callback_data="help_back"),
+     
+    ],
+    [
+        InlineKeyboardButton(
+            text="[UPDATE CHANNEL ]", url="https://t.me/pigasusUpdates"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="[ SUPPORT CHAT ]", url="https://t.me/pigasusSupport"),
+          
+
+
+InlineKeyboardButton(
+            text="[ CHECK MY FRIEND ]", url="http://t.me/ShuKurenaithebot"
+        ),
+
+    ],
+    [
+        InlineKeyboardButton(
+                    text="[ ✘BOT Cʀᴇᴀᴛᴇʀ✘ ]", url="https://t.me/Rohith_no_1"
+        ),
+    ],
+]
+
 
 HELP_STRINGS = """
 Hey there, I'm SHINCHAN!
