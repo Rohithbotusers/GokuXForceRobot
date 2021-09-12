@@ -77,28 +77,28 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hey There, I'm [Goku](https://telegra.ph/file/0e7ab643f949630fbb63c.jpg)
-I Am An Anime Themed Group Management Bot.
-Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
+ Hey There, I'm [Shinchan](https://telegra.ph/file/85083e47eded1eb77a9bb.jpg)
+I Am An Cartoon Themed Group Management Bot.
+Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communities.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Me", url="t.me/GokuxRobot?startgroup=true"),    
+            text="➕ Add Shinchan to your group ➕", url="t.me/Shinchansrobot?startgroup=true"),    
         InlineKeyboardButton(
               text="⚙️ Help", callback_data="help_back"),   
    ],
     [      
        InlineKeyboardButton(
-            text="🌐 X-Force", url="https://t.me/XForceSquad"),        
+            text="Logs", url="https://t.me/PigasusLogs"),        
           InlineKeyboardButton(
-            text="📋 Updates", url="https://t.me/XForceBots"),
+            text="📋 Updates", url="https://t.me/PigasusUpdates"),
     
    ],
     [      
           InlineKeyboardButton(
-            text="🗣️ Support", url="https://t.me/XForceSupport"),
+            text="🗣️ Support", url="https://t.me/PigasusSupport"),
           InlineKeyboardButton(
             text="📁 Source", url="https://github.com/STBxD/GokuXForceRobot",
     
@@ -107,13 +107,13 @@ buttons = [
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm Son Goku!
+Hey there, I'm SHINCHAN!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
-If you want to report bugs or have any questions on how to use me then feel free to reach out: @XForceSupport.
+If you want to report bugs or have any questions on how to use me then feel free to reach out: @pigasussupport.
 All commands can be used with the following: / ! ?
 List of all the Modules:
 """.format(
@@ -665,7 +665,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/b9410d4211892cacc3302.jpg)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/85083e47eded1eb77a9bb.jpg)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
