@@ -78,7 +78,9 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
  Hey There, I'm [Shinchan](https://telegra.ph/file/85083e47eded1eb77a9bb.jpg)
+
 I Am An Cartoon Themed Group Management Bot.
+
 Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communities.
 """
 
