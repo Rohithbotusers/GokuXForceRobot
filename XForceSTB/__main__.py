@@ -103,8 +103,7 @@ buttons = [
 
 
 InlineKeyboardButton(
-            text="[ CHECK MY FRIEND ]", url="http://t.me/ShuKurenaithebot"
-        ),
+            text="[ CHECK MY FRIEND ]", url="http://t.me/ShuKurenaithebot"),
 
     ],
     [
