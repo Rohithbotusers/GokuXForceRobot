@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/2df8b79bfccc32518cdb6.jpg">
 </p>
 
-# Son Goku X
+# Shu kurenai
 * If You're Going To Fork This Repo Then Don't Forget To Give a Star ✯
 
 
