@@ -87,7 +87,7 @@ Built By Pigasus group admin, I Specialize In Managing Cartoon Eccentric Communi
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD SHINCHAN TO YOUR GROUP ➕️",url="http://t.me/Shinchansrobot?startgroup=true"
+            text="➕️ ADD SHINCHAN TO YOUR GROUP ➕️",url="http://t.me/Shinchasrobot?startgroup=true"
         ),
     ],
     [
